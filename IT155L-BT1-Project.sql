@@ -8,5 +8,16 @@ insert into ItemDescript values (1002, 'Grilled Chicken', 'grill_chicken', 'Lore
 insert into ItemDescript values (1003, 'Breaded Pork Steak', 'breaded_porksteak', 'Lorem ipsum blah blah blah');
 insert into ItemDescript values (1004, 'Breaded Fish Fillet', 'breaded_fishfillet', 'Lorem ipsum blah blah blah');
 insert into ItemDescript values (1005, 'Breaded Pork', 'breaded_pork', 'Lorem ipsum blah blah blah');
+insert into ItemDescript values (1006, 'Beef Misono', 'beef_misono', 'Lorem ipsum blah blah blah');
+insert into ItemDescript values (1007, 'Pork Katsudon', 'pork_katsudon', 'Lorem ipsum blah blah blah');
+insert into ItemDescript values (1008, 'Pork Tonkatsu', 'pork_tonkatsu', 'Lorem ipsum blah blah blah');
+insert into ItemDescript values (1009, 'Chicken Teriyaki', 'chicken_teriyaki', 'Lorem ipsum blah blah blah');
+insert into ItemDescript values (1010, 'Chicken Yakitori', 'chicken_yakitori', 'Lorem ipsum blah blah blah');
+insert into ItemDescript values (1011, 'Kani Tempura', 'kani_tempura', 'Lorem ipsum blah blah blah');
+
+
+
 
 select * from ItemDescript;
+
+drop table ItemDescript;
