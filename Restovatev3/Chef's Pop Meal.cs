@@ -24,7 +24,7 @@ namespace Restovatev3
         {
 
             this.Close();
-            Form1 frm1 = new Form1();
+            Home frm1 = new Home();
             frm1.Show();
         }
 
