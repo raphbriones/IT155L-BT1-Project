@@ -34,5 +34,12 @@ namespace Restovatev3
         {
             Environment.Exit(0);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form4 frm4 = new Form4();
+            this.Hide();
+            frm4.Show();
+        }
     }
 }

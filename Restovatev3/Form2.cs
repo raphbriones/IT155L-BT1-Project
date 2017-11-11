@@ -13,7 +13,8 @@ namespace Restovatev3
 {
     public partial class Form2 : Form
     {
-        int itemid; 
+        int itemid;
+        int id;
         public Form2()
         {
             InitializeComponent();
@@ -31,7 +32,8 @@ namespace Restovatev3
         {
             this.Hide();
             itemid = 1001;
-            Form3 frm3 = new Form3(itemid);
+            id = 0;
+            Form3 frm3 = new Form3(itemid, id);
             frm3.Show();
         }
 
@@ -39,14 +41,16 @@ namespace Restovatev3
         {
             this.Hide();
             itemid = 1005;
-            Form3 frm3 = new Form3(itemid);
+            id = 0;
+            Form3 frm3 = new Form3(itemid, id);
             frm3.Show();
         }
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
             itemid = 1002;
-            Form3 frm3 = new Form3(itemid);
+            id = 0;
+            Form3 frm3 = new Form3(itemid, id);
             frm3.Show();   
         }
 
@@ -54,7 +58,8 @@ namespace Restovatev3
         {
             this.Hide();
             itemid = 1003;
-            Form3 frm3 = new Form3(itemid);
+            id = 0;
+            Form3 frm3 = new Form3(itemid, id);
             frm3.Show();
         }
 
@@ -62,8 +67,14 @@ namespace Restovatev3
         {
             this.Hide();
             itemid = 1004;
-            Form3 frm3 = new Form3(itemid);
+            id = 0;
+            Form3 frm3 = new Form3(itemid, id);
             frm3.Show();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

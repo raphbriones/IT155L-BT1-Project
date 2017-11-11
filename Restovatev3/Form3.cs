@@ -15,10 +15,12 @@ namespace Restovatev3
     public partial class Form3 : Form
     {
         int itemid;
+        int id;
  
-        public Form3(int itemid)
+        public Form3(int itemid, int id)
         {
             this.itemid = itemid;
+            this.id = id;
             InitializeComponent();
         }
 
@@ -69,9 +71,19 @@ namespace Restovatev3
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Form2 frm2 = new Form2();
-            frm2.Show();
+            if(id == 0)
+            {
+                this.Close();
+                Form2 frm2 = new Form2();
+                frm2.Show();
+            }
+            else if (id==1)
+            {
+                this.Close();
+                Form4 frm4 = new Form4();
+                frm4.Show();
+            }
+            
         }
     }
 }
