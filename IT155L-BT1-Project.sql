@@ -15,9 +15,31 @@ insert into ItemDescript values (1009, 'Chicken Teriyaki', 'chicken_teriyaki', '
 insert into ItemDescript values (1010, 'Chicken Yakitori', 'chicken_yakitori', 'Lorem ipsum blah blah blah');
 insert into ItemDescript values (1011, 'Kani Tempura', 'kani_tempura', 'Lorem ipsum blah blah blah');
 
-
-
-
 select * from ItemDescript;
 
 drop table ItemDescript;
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+create table Account (AccountId int primary key Identity(1000,10000), FirstName varchar(100) not null, LastName varchar(100) not null, 
+Username varchar(100) not null, Email varchar(100) not null, Password varchar(100) not null);
+
+insert into Account values ('Hello','World','user','email', 'pass');
+
+select * from Account;
+
+drop table Account;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+create table Login (LoginID int primary key Identity (1000,10000), Username varchar(100) not null, Email varchar(100) not null, Password varchar(100) not null);
+
+insert into Login values ('user','email', 'pass');
+
+select * from Login;
+
+drop table Login;
+
+
+
+
+
+
