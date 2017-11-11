@@ -16,7 +16,6 @@ C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\bin\Debug\Restova
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.csprojResolveAssemblyReference.cache
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.Home.resources
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.Form2.resources
-C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.Form3.resources
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.Form4.resources
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.Properties.Resources.resources
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.csproj.GenerateResource.Cache
@@ -25,3 +24,5 @@ C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restova
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.pdb
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.Login.resources
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.AppLogin.resources
+C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.ShowDescription.resources
+C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.Signup.resources

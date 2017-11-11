@@ -24,7 +24,7 @@ namespace Restovatev3
             this.Hide();
             itemid = 1006;
             id = 1;
-            Form3 frm3 = new Form3(itemid,id);
+            ShowDescription frm3 = new ShowDescription(itemid,id);
             frm3.Show();
         }
 
@@ -40,7 +40,7 @@ namespace Restovatev3
             this.Hide();
             itemid = 1007;
             id = 1;
-            Form3 frm3 = new Form3(itemid, id);
+            ShowDescription frm3 = new ShowDescription(itemid, id);
             frm3.Show();
         }
 
@@ -49,7 +49,7 @@ namespace Restovatev3
             this.Hide();
             itemid = 1008;
             id = 1;
-            Form3 frm3 = new Form3(itemid, id);
+            ShowDescription frm3 = new ShowDescription(itemid, id);
             frm3.Show();
         }
     }
