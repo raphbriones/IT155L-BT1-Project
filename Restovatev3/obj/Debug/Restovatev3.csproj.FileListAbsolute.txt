@@ -23,3 +23,5 @@ C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restova
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.csproj.CoreCompileInputs.cache
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.exe
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.pdb
+C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.Login.resources
+C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.AppLogin.resources
