@@ -12,19 +12,19 @@ using System.Windows.Forms;
 
 namespace Restovatev3
 {
-    public partial class Form3 : Form
+    public partial class ShowDescription : Form
     {
         int itemid;
         int id;
  
-        public Form3(int itemid, int id)
+        public ShowDescription(int itemid, int id)
         {
             this.itemid = itemid;
             this.id = id;
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
+        private void ShowDescription_Load(object sender, EventArgs e)
         {
             SqlDataReader rdr = null;
             string constring;
