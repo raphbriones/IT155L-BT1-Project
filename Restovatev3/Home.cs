@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Restovatev3
 {
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
-        public Form1()
+        public Home()
         {
             InitializeComponent();
         }
@@ -33,6 +33,13 @@ namespace Restovatev3
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form4 frm4 = new Form4();
+            this.Hide();
+            frm4.Show();
         }
     }
 }
