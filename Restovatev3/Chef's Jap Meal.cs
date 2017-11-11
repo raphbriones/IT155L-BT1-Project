@@ -31,7 +31,7 @@ namespace Restovatev3
         private void button7_Click(object sender, EventArgs e)
         {
             this.Close();
-            Form1 frm1 = new Form1();
+            Home frm1 = new Home();
             frm1.Show();
         }
 
