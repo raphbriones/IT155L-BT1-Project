@@ -41,8 +41,21 @@ namespace Restovatev3
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source=(local);Initial Catalog=RestovateDatabase;Integrated Security=True");
-
+            try
+            {
+                string constring;
+                string query;
+                constring = "Data Source=(local);Initial Catalog=RestovateDatabase;Integrated Security=True";
+                SqlConnection con = new SqlConnection(constring);
+                query = "select *from Login where Email = '" + textBox1.Text +
+                    "' AND Password = '" + textBox2.Text + "'";
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(query, constring);
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message,"Message");
+            }
+            
         }
     }
 }

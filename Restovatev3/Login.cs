@@ -14,6 +14,7 @@ namespace Restovatev3
 {
     public partial class Login : Form
     {
+        int num;
         public Login()
         {
             InitializeComponent();
@@ -53,7 +54,8 @@ namespace Restovatev3
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     this.Hide();
-                    Home hme = new Home();
+                    num = 1;
+                    Home hme = new Home(num);
                     hme.Show();
                 }
                 else

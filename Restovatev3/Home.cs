@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,14 @@ namespace Restovatev3
 {
     public partial class Home : Form
     {
+        int num;
         public Home()
         {
+            InitializeComponent();
+        }
+        public Home(int num)
+        {
+            this.num = num;
             InitializeComponent();
         }
 
@@ -34,6 +41,24 @@ namespace Restovatev3
             BookingMenu booking = new BookingMenu();
             this.Hide();
             booking.Show();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+            if (num == 2)
+            {
+                label1.Text = "Welcome, Guest!";
+            }
+            else
+            {
+                /*
+                string constring;
+                string query;
+                constring = "Data Source=(local);Initial Catalog=RestovateDatabase;Integrated Security=True";
+                query = "";
+                SqlConnection con = new SqlConnection(constring);
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(query, constring);*/
+            }
         }
     }
 }

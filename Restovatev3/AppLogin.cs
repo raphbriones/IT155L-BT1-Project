@@ -12,6 +12,7 @@ namespace Restovatev3
 {
     public partial class AppLogin : Form
     {
+        int num;
         public AppLogin()
         {
             InitializeComponent();
@@ -19,8 +20,9 @@ namespace Restovatev3
 
         private void button2_Click(object sender, EventArgs e)
         {
+            num = 2;
             this.Hide();
-            Home hm = new Home();
+            Home hm = new Home(num);
             hm.Show();
         }
 
