@@ -117,13 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Rodando’s restaurant is a small restaurant
-built for people who love to eat Asian
-foods. The taste of Asia as we say it.
-We will be offering Japanese, Korean,
-and Thailand dishes. It will be located
-in San Pedro, Laguna near our house
-so it will not be hassle.</value>
-  </data>
 </root>

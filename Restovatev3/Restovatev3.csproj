@@ -45,6 +45,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookingTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingTable.Designer.cs">
+      <DependentUpon>BookingTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookingMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingMenu.Designer.cs">
+      <DependentUpon>BookingMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chef%27s Silog%27s.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chef%27s Silog%27s.Designer.cs">
+      <DependentUpon>Chef%27s Silog%27s.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +87,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Show Description.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +113,15 @@
     <Compile Include="Signup.Designer.cs">
       <DependentUpon>Signup.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BookingMenu.resx">
+      <DependentUpon>BookingMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookingTable.resx">
+      <DependentUpon>BookingTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chef%27s Silog%27s.resx">
+      <DependentUpon>Chef%27s Silog%27s.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Show Description.resx">
       <DependentUpon>Show Description.cs</DependentUpon>
@@ -115,6 +151,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Signup.resx">
       <DependentUpon>Signup.cs</DependentUpon>
@@ -131,6 +168,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HelloChef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hello_Chef.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

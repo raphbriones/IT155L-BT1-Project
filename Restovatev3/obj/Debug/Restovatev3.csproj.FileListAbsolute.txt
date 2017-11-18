@@ -26,3 +26,7 @@ C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restova
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.AppLogin.resources
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.ShowDescription.resources
 C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.Signup.resources
+C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.Chef_s_Silog_s.resources
+C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.Menu.resources
+C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.BookingMenu.resources
+C:\Users\rapha\Documents\GitHub\IT155L-BT1-Project\Restovatev3\obj\Debug\Restovatev3.BookingTable.resources
