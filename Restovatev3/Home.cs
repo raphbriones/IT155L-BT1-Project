@@ -35,5 +35,12 @@ namespace Restovatev3
             this.Hide();
             booking.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            HMap hmap = new HMap();
+            this.Hide();
+            hmap.Show();
+        }
     }
 }

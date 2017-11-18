@@ -37,5 +37,10 @@ namespace Restovatev3
             this.Close();
             frm.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
