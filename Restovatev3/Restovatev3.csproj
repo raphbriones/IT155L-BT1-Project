@@ -63,6 +63,12 @@
     <Compile Include="Chef%27s Silog%27s.Designer.cs">
       <DependentUpon>Chef%27s Silog%27s.cs</DependentUpon>
     </Compile>
+    <Compile Include="HMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HMap.Designer.cs">
+      <DependentUpon>HMap.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     <EmbeddedResource Include="Chef%27s Silog%27s.resx">
       <DependentUpon>Chef%27s Silog%27s.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HMap.resx">
+      <DependentUpon>HMap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +183,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Hello_Chef.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zzzzzz.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
